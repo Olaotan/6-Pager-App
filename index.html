@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="pager-section">
+                <h3 class="pager-title">Pager</h3>
+                <h2 id="no-message">No Message</h2>
+            </div>
+            <div class="phone-section">
+                <h3>Phone</h3>
+                <h2 id="message-display">No Message</h2>
+                <div class="number-list">
+                    <button id="1" onclick="key1()">1</button>
+                    <button id="2" onclick="key2()">2</button>
+                    <button id="3" onclick="key3()">3</button>
+                </div>
+                <div class="number-list">
+                    <button id="4">4</button>
+                    <button id="5">5</button>
+                    <button id="6">6</button>
+                </div>
+                <div class="number-list">
+                    <button id="7">7</button>
+                    <button id="8">8</button>
+                    <button id="9">9</button>
+                </div>
+                <div class="number-list">
+                    <button id="*">*</button>
+                    <button id="0">0</button>
+                    <button id="#">#</button>
+                </div>
+                <button id="send" onclick="send()">SEND</button>
+                <button id="reset" onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
