@@ -1,6 +1,6 @@
 let pagerMessage = document.getElementById("no-message")
 let phoneMessage = document.getElementById("message-display")
-
+let noFour = document.getElementById("4")
 
 
 
@@ -27,6 +27,15 @@ function key3(){
         phoneMessage.textContent += 3
     }    
 }
+
+noFour.addEventListener("click", function(){
+    if (phoneMessage.textContent == "No Message"){
+        phoneMessage.textContent = 4
+    } else {
+        phoneMessage.textContent +=4
+    }
+})
+
 
 function reset(){
     phoneMessage.textContent = "No Message"  
